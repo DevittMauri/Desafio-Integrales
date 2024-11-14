@@ -1,0 +1,38 @@
+Para resolver este problema, vamos a calcular el trabajo realizado por la fuerza que estira la banda elástica a partir de los datos en la tabla.
+El trabajo realizado por una fuerza variable \( F(x) \) sobre un desplazamiento \( x \) se calcula mediante la integral:
+
+\[
+W = \int_{x_0}^{x_n} F(x) \, dx
+\]
+
+Dado que solo tenemos puntos discretos de \( F(x) \) en función de \( x \), usaremos métodos numéricos de integración: el método del trapecio y la regla de Simpson.
+
+**Pasos a seguir:**
+1. Utilizar el método del trapecio para aproximar el trabajo.
+2. Utilizar la regla de Simpson para obtener otra aproximación.
+3. Graficar la relación entre \( F(x) \) y \( x \).
+
+Voy a realizar el cálculo y generar la gráfica usando Python.
+
+**Informe de Cálculo del Trabajo Realizado por la Fuerza**
+
+Para calcular el trabajo realizado por la fuerza mientras se estira una banda elástica, utilizamos los datos experimentales de desplazamiento \( x \) y 
+fuerza \( F \) que se muestran en la tabla proporcionada.
+
+### Métodos de Integración
+
+1. **Método del Trapecio:**
+   - El valor aproximado del trabajo es de \( W_{\text{trapecio}} \approx 4.544 \, \text{lb·in} \).
+
+2. **Regla de Simpson:**
+   - El valor aproximado del trabajo es de \( W_{\text{simpson}} \approx 4.566 \, \text{lb·in} \).
+
+Ambos métodos nos proporcionan valores muy cercanos, lo que sugiere que la aproximación es precisa.
+
+### Gráfica
+
+La gráfica anterior muestra la relación entre la fuerza aplicada \( F \) y el desplazamiento \( x \), donde el área bajo la curva representa el trabajo realizado.
+La gráfica confirma que la fuerza aumenta conforme se incrementa el desplazamiento, lo cual es típico en una banda elástica que se estira.
+
+**Conclusión:** El trabajo realizado al estirar la banda elástica hasta 2.8 pulgadas es aproximadamente 4.544 lb·in usando el método del trapecio y 4.566 lb·in 
+usando la regla de Simpson. Estos valores son prácticamente iguales, por lo cual cualquiera de los métodos proporciona una buena estimación.
